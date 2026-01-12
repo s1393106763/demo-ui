@@ -35,6 +35,8 @@ jobs:
         with:
           # 执行发布命令
           publish: pnpm changeset publish
+          commit: 'chore: version packages'
+          title: 'chore: version packages'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
