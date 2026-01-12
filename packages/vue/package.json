@@ -1,7 +1,11 @@
 {
-  "name": "@demo-ui/vue",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@pabbii/vue",
+  "version": "0.0.3",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -20,15 +24,15 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "lint": "eslint \"src/**/*.ts*\""
+    "lint": "eslint \"src/**/*.ts*\" --no-error-on-unmatched-pattern"
   },
   "peerDependencies": {
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@demo-ui/ts-config": "workspace:*",
-    "@demo-ui/eslint-config": "workspace:*",
-    "@demo-ui/tokens": "workspace:*",
+    "@pabbii/ts-config": "workspace:*",
+    "@pabbii/eslint-config": "workspace:*",
+    "@pabbii/tokens": "workspace:*",
     "@storybook/vue3": "^8.0.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",

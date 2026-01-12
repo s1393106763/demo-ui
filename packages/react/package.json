@@ -1,7 +1,11 @@
 {
-  "name": "@demo-ui/react",
-  "version": "0.0.1",
-  "private": true,
+  "name": "@pabbii/react",
+  "version": "0.0.3",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -21,7 +25,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "lint": "eslint \"src/**/*.ts*\"",
+    "lint": "eslint \"src/**/*.ts*\" --no-error-on-unmatched-pattern",
     "test": "vitest run"
   },
   "peerDependencies": {
@@ -29,9 +33,9 @@
     "react-dom": ">=18"
   },
   "devDependencies": {
-    "@demo-ui/eslint-config": "workspace:*",
-    "@demo-ui/tokens": "workspace:*",
-    "@demo-ui/ts-config": "workspace:*",
+    "@pabbii/eslint-config": "workspace:*",
+    "@pabbii/tokens": "workspace:*",
+    "@pabbii/ts-config": "workspace:*",
     "@storybook/react": "^8.6.15",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",

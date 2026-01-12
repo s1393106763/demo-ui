@@ -1,7 +1,7 @@
 {
   "name": "playground",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,14 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@demo-ui/react": "workspace:*",
-    "@demo-ui/tokens": "workspace:*",
+    "@pabbii/react": "workspace:*",
+    "@pabbii/tokens": "workspace:*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@demo-ui/ts-config": "workspace:*",
-    "@demo-ui/eslint-config": "workspace:*",
+    "@pabbii/ts-config": "workspace:*",
+    "@pabbii/eslint-config": "workspace:*",
     "@types/react": "^18.2.56",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react": "^4.2.1",

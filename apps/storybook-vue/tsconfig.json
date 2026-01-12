@@ -3,8 +3,8 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@demo-ui/tokens": ["../../packages/tokens/src/index.ts"],
-      "@demo-ui/vue": ["../../packages/vue/src/index.ts"]
+      "@pabbii/tokens": ["../../packages/tokens/src/index.ts"],
+      "@pabbii/vue": ["../../packages/vue/src/index.ts"]
     }
   },
   "include": ["src", ".storybook"]

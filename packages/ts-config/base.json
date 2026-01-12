@@ -18,9 +18,9 @@
     "target": "esnext",
     "baseUrl": ".",
     "paths": {
-      "@demo-ui/tokens": ["../../packages/tokens/src/index.ts"],
-      "@demo-ui/react": ["../../packages/react/src/index.ts"],
-      "@demo-ui/vue": ["../../packages/vue/src/index.ts"]
+      "@pabbii/tokens": ["../../packages/tokens/src/index.ts"],
+      "@pabbii/react": ["../../packages/react/src/index.ts"],
+      "@pabbii/vue": ["../../packages/vue/src/index.ts"]
     }
   },
   "exclude": ["node_modules"]

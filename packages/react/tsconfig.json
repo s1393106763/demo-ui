@@ -1,5 +1,5 @@
 {
-  "extends": "@demo-ui/ts-config/react-library.json",
+  "extends": "@pabbii/ts-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist",
     "baseUrl": "."

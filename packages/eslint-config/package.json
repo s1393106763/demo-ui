@@ -1,7 +1,11 @@
 {
-  "name": "@demo-ui/eslint-config",
+  "name": "@pabbii/eslint-config",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "main": "index.js",
   "dependencies": {

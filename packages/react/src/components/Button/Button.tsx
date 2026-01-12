@@ -1,5 +1,5 @@
 import React from "react";
-import { colors } from "@demo-ui/tokens";
+import { colors } from "@pabbii/tokens";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: "primary" | "secondary";

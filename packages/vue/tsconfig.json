@@ -1,5 +1,5 @@
 {
-  "extends": "@demo-ui/ts-config/vue-library.json",
+  "extends": "@pabbii/ts-config/vue-library.json",
   "compilerOptions": {
     "outDir": "dist",
     "baseUrl": "."
