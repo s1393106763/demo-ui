@@ -24,7 +24,7 @@
   "scripts": {
     "build": "vite build",
     "dev": "vite",
-    "lint": "eslint \"src/**/*.ts*\""
+    "lint": "eslint \"src/**/*.ts*\" --no-error-on-unmatched-pattern"
   },
   "peerDependencies": {
     "vue": "^3.4.0"
