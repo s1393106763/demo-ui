@@ -1,5 +1,11 @@
 # @pabbii/react
 
+## 0.0.4
+
+### Patch Changes
+
+- b018314: 新增input组件
+
 ## 0.0.3
 
 ### Patch Changes

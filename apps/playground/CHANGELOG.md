@@ -1,5 +1,12 @@
 # playground
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [b018314]
+  - @pabbii/react@0.0.4
+
 ## 0.0.2
 
 ### Patch Changes
