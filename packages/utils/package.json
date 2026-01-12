@@ -1,0 +1,13 @@
+{
+  "name": "@demo-ui/utils",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "devDependencies": {
+    "@demo-ui/ts-config": "workspace:*",
+    "@demo-ui/eslint-config": "workspace:*"
+  }
+}

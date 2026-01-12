@@ -1,0 +1,11 @@
+{
+  "extends": "../../packages/ts-config/react-library.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@demo-ui/tokens": ["../../packages/tokens/src/index.ts"],
+      "@demo-ui/react": ["../../packages/react/src/index.ts"]
+    }
+  },
+  "include": ["src"]
+}

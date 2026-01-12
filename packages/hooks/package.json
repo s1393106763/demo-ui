@@ -1,0 +1,14 @@
+{
+  "name": "@demo-ui/hooks",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./src/index.ts",
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "devDependencies": {
+    "@demo-ui/ts-config": "workspace:*",
+    "@demo-ui/eslint-config": "workspace:*",
+    "react": "^18.2.0"
+  }
+}
