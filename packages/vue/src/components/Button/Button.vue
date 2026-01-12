@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
-import { colors } from '@demo-ui/tokens';
+import { colors } from '@pabbii/tokens';
 
 interface Props {
   variant?: 'primary' | 'secondary';

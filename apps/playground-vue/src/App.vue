@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Button } from '@demo-ui/vue';
+import { Button } from '@pabbii/vue';
 
 const handleClick = () => {
   window.alert('Vue Hello!');

@@ -17,7 +17,7 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^19.1.0
         version: 19.8.1
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:packages/eslint-config
       eslint:
@@ -41,10 +41,10 @@ importers:
 
   apps/playground:
     dependencies:
-      '@demo-ui/react':
+      '@pabbii/react':
         specifier: workspace:*
         version: link:../../packages/react
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
       react:
@@ -54,10 +54,10 @@ importers:
         specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../../packages/ts-config
       '@types/react':
@@ -78,20 +78,20 @@ importers:
 
   apps/playground-vue:
     dependencies:
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@demo-ui/vue':
+      '@pabbii/vue':
         specifier: workspace:*
         version: link:../../packages/vue
       vue:
         specifier: ^3.4.0
         version: 3.5.26(typescript@5.9.3)
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../../packages/eslint-config
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../../packages/ts-config
       '@vitejs/plugin-vue':
@@ -109,10 +109,10 @@ importers:
 
   apps/storybook-react:
     devDependencies:
-      '@demo-ui/react':
+      '@pabbii/react':
         specifier: workspace:*
         version: link:../../packages/react
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
       '@storybook/addon-essentials':
@@ -160,10 +160,10 @@ importers:
 
   apps/storybook-vue:
     devDependencies:
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@demo-ui/vue':
+      '@pabbii/vue':
         specifier: workspace:*
         version: link:../../packages/vue
       '@storybook/addon-essentials':
@@ -238,10 +238,10 @@ importers:
 
   packages/hooks:
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       react:
@@ -250,13 +250,13 @@ importers:
 
   packages/react:
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@storybook/react':
@@ -312,22 +312,22 @@ importers:
 
   packages/utils:
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../ts-config
 
   packages/vue:
     devDependencies:
-      '@demo-ui/eslint-config':
+      '@pabbii/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@demo-ui/tokens':
+      '@pabbii/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@demo-ui/ts-config':
+      '@pabbii/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@storybook/vue3':

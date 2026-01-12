@@ -5,10 +5,10 @@
 ## 🏗️ 架构概览
 
 - **Packages**:
-  - `@demo-ui/react`: React 组件库核心包。
-  - `@demo-ui/vue`: Vue 3 组件库核心包。
-  - `@demo-ui/tokens`: 共享的设计变量（Colors, Spacing 等）。
-  - `@demo-ui/ts-config` & `@demo-ui/eslint-config`: 统一的工程规范配置。
+  - `@pabbii/react`: React 组件库核心包。
+  - `@pabbii/vue`: Vue 3 组件库核心包。
+  - `@pabbii/tokens`: 共享的设计变量（Colors, Spacing 等）。
+  - `@pabbii/ts-config` & `@pabbii/eslint-config`: 统一的工程规范配置。
 - **Apps**:
   - `storybook-react` & `storybook-vue`: 独立的可视化文档与开发环境。
   - `playground` & `playground-vue`: 框架原生的调试沙箱。
@@ -23,7 +23,7 @@
 
 如果组件涉及新的原子属性（颜色、间距等），请在 `packages/tokens/src/index.ts` 中定义。
 
-- **命令**: `pnpm build --filter @demo-ui/tokens`
+- **命令**: `pnpm build --filter @pabbii/tokens`
 
 ### 2. 编写核心代码 (Implementation)
 

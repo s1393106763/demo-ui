@@ -1,7 +1,7 @@
 {
   "name": "playground-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@demo-ui/vue": "workspace:*",
-    "@demo-ui/tokens": "workspace:*",
+    "@pabbii/vue": "workspace:*",
+    "@pabbii/tokens": "workspace:*",
     "vue": "^3.4.0"
   },
   "devDependencies": {
-    "@demo-ui/ts-config": "workspace:*",
-    "@demo-ui/eslint-config": "workspace:*",
+    "@pabbii/ts-config": "workspace:*",
+    "@pabbii/eslint-config": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.3.3",
     "vite": "^5.1.4",

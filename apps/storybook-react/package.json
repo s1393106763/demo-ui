@@ -7,8 +7,8 @@
     "build": "storybook build"
   },
   "devDependencies": {
-    "@demo-ui/react": "workspace:*",
-    "@demo-ui/tokens": "workspace:*",
+    "@pabbii/react": "workspace:*",
+    "@pabbii/tokens": "workspace:*",
     "@storybook/addon-essentials": "^8.0.0",
     "@storybook/addon-interactions": "^8.0.0",
     "@storybook/addon-links": "^8.0.0",
