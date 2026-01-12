@@ -1,7 +1,11 @@
 {
   "name": "@pabbii/react",
-  "version": "0.0.2",
-  "private": true,
+  "version": "0.0.3",
+  "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.cjs",
